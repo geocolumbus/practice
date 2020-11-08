@@ -1,0 +1,23 @@
+{
+  "name": "webby",
+  "version": "0.0.1",
+  "description": "Webpacked Web App!",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "clean": "rm -rf node_modules dist",
+    "build": "node_modules/.bin/webpack --mode=development"
+  },
+  "author": "geocolumbus@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
